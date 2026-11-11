@@ -3,9 +3,9 @@ function search() {
     const displayArea = document.getElementById('display')
 
     if (userInput.toLowerCase() === 'male') {
-        displayArea.innerHTML = `<p>Gender is Valid ✅: You're a Male 👦🏻</p>`
+        displayArea.innerHTML = `<p>Gender is Valid ✅: You're Male 👦🏻</p>`
     } else if (userInput.toLowerCase() === 'female') {
-        displayArea.innerHTML = `<p>Gender is Valid ✅: You're a Female 👧🏻</p>`
+        displayArea.innerHTML = `<p>Gender is Valid ✅: You're Female 👧🏻</p>`
     } else {
         displayArea.innerHTML = `<p>🚨 Invalid Gender!  You wan Enter Fire? 😂</p>`
     }
